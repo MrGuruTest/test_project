@@ -5,9 +5,11 @@ using namespace std;
 int main()
 {
 	string name;
-	cout << "Hello World" << endl;
+	int age;
 	cout << "Enter your Name : ";
 	cin >> name;
 	cout << "Hello " << name << endl;
+	cout << "Age : ";
+	cin >> age;
 	return 0;
 }
