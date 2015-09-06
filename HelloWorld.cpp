@@ -6,10 +6,11 @@ int main()
 {
 	string name;
 	int age;
+	cout << "Hello World" << endl;
 	cout << "Enter your Name : ";
 	cin >> name;
 	cout << "Hello " << name << endl;
-	cout << "Age : ";
+	cout << "Enter Age : "
 	cin >> age;
 	return 0;
 }
