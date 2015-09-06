@@ -12,5 +12,11 @@ int main()
 	cout << "Hello " << name << endl;
 	cout << "Enter Age : "
 	cin >> age;
+	if(age < 0)
+	{
+		cout << "Enter Age agin Age Error : "
+		cin >> age;
+	}
+	
 	return 0;
 }
