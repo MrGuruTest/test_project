@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	string name;
-	int age;
+	int age,form;
 	cout << "Hello World" << endl;
 	cout << "Enter your Name : ";
 	cin >> name;
@@ -17,6 +17,7 @@ int main()
 		cout << "Enter Age agin Age Error : "
 		cin >> age;
 	}
-	
+	cout << "Where are you form : ";
+	cin >> form;
 	return 0;
 }
